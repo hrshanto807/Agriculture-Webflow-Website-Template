@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,700;1,500&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --agr-primary-color: #7EB693;
+    --agr-text-color: #525C60;
+    --agr-heading-color: #274C5B;
+    --agr-secondary-color: #EFD372;
+    --agr-button-color: #274C5B;
+    --agr-heading-font: 'Roboto';
+    --agr-subheading-font: 'Yellowtail';
+    --agr-text-font: 'Open Sans';
+}
+
+.agr-header {
+    padding-top: 74px;
+    padding-bottom: 74px;
+}
+
+.agr-primary-menu ul {
+    display: flex;
+    gap: 35px;
+    margin: 0;
+}
+
+.agr-primary-menu ul li {
+    list-style: none;
+}
+
+.agr-primary-menu ul li a {
+    text-decoration: none;
+    color: var(--agr-heading-color);
+    font-family: var(--agr-heading-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5px;
+}
+
+.agr-header-search input {
+    width: 376px;
+    height: 66px;
+    border-radius: 36px;
+    background: #FAFAFA;
+    border: 0;
+}
