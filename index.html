@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="font-awosome/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Agriculture Webflow Website Template</title>
 </head>
 
@@ -22,7 +23,7 @@
                             <a href="#"><img src="img/Logo.png" alt=""></a>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 d-flex align-items-center">
                         <div class="agr-primary-menu">
                             <ul>
                                 <li><a href="#">Home</a></li>
@@ -98,7 +99,7 @@
             <div class="agr-about-us">
                 <div class="container">
                     <div class="row">
-                        <div class="col-6">                            
+                        <div class="col-6">
                         </div>
                         <!-- agr-about-us-left end -->
                         <div class="col-6">
@@ -150,7 +151,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <div class="agr-product-heding">
+                            <div class="agr-product-heding text-center agr-section-headig">
                                 <h4>Categories</h4>
                                 <h2>Our Products</h2>
                             </div>
@@ -158,7 +159,7 @@
                     </div>
 
                     <!-- single-product area start -->
-                    <div class="row">
+                    <div class="row gy-4">
                         <div class="col-3">
                             <div class="agr-our-single-product">
                                 <div class="agr-single-product-cat">
@@ -172,7 +173,7 @@
                                         <h2>Calabrese Broccoli</h2>
                                     </a>
                                 </div>
-                                <div class="agr-single-product-footer">
+                                <div class="agr-single-product-footer d-flex justify-content-between">
                                     <div class="agr-single-product-price">
                                         <p><del>$20.00</del> <span>$13.00</span></p>
                                     </div>
@@ -228,7 +229,7 @@
                                         <h2>Calabrese Broccoli</h2>
                                     </a>
                                 </div>
-                                <div class="agr-single-product-footer">
+                                <div class="agr-single-product-footer d-flex justify-content-between">
                                     <div class="agr-single-product-price">
                                         <p><del>$20.00</del> <span>$13.00</span></p>
                                     </div>
@@ -388,7 +389,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="agr-product-area-button">
-                                <a href="#">Load More<i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="#" class="agr-button">Load More<i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -397,17 +398,18 @@
         </section>
         <!-- product area end -->
         <section class="agr-testimonial-area">
-            <div class="agr-testimonial-area">
+            <div class="agr-testimonial">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <div class="agr-testimonail-top">
+                            <div class="agr-testimonail-top agr-section-headig text-center pt-5">
                                 <h4>Testimonial</h4>
                                 <h2>What Our Customer Saying?</h2>
                             </div>
                         </div>
                         <div class="col-12">
-                            <div class="agr-testimonial-slider-area">
+                            <div class="agr-testimonial-slider-area text-center owl-carousel">
+                                <!-- owl cerosul single testimonial-->
                                 <div class="agr-single-testimonial">
                                     <div class="agr-single-testimonial-img">
                                         <img src="img/testimonial.jpg" alt="">
@@ -419,49 +421,131 @@
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                     </div>
-                                    <div class="agr-single-testimonail-content">
+                                    <div class="agr-single-testimonail-content agr-section-headig">
                                         <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                             simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                                             been.</p>
                                     </div>
-                                    <div class="agr-single-testimonial-client">
+                                    <div class="agr-single-testimonial-client agr-section-headig">
                                         <h2>Sara Taylor</h2>
                                         <p>Consumer</p>
                                     </div>
                                 </div>
+                                <!-- end cerosel testimonial -->
+                                <!-- owl cerosul single testimonial-->
+                                <div class="agr-single-testimonial">
+                                    <div class="agr-single-testimonial-img">
+                                        <img src="img/testimonial.jpg" alt="">
+                                    </div>
+                                    <div class="agr-testimonial-ratting 5star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="agr-single-testimonail-content agr-section-headig">
+                                        <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                            simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                            been.</p>
+                                    </div>
+                                    <div class="agr-single-testimonial-client agr-section-headig">
+                                        <h2>Sara Taylor</h2>
+                                        <p>Consumer</p>
+                                    </div>
+                                </div>
+                                <!-- end cerosel testimonial -->
+
+                                <!-- owl cerosul single testimonial-->
+                                <div class="agr-single-testimonial">
+                                    <div class="agr-single-testimonial-img">
+                                        <img src="img/testimonial.jpg" alt="">
+                                    </div>
+                                    <div class="agr-testimonial-ratting 5star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="agr-single-testimonail-content agr-section-headig">
+                                        <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                            simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                            been.</p>
+                                    </div>
+                                    <div class="agr-single-testimonial-client agr-section-headig">
+                                        <h2>Sara Taylor</h2>
+                                        <p>Consumer</p>
+                                    </div>
+                                </div>
+                                <!-- end cerosel testimonial -->
+
+                                <!-- owl cerosul single testimonial-->
+                                <div class="agr-single-testimonial">
+                                    <div class="agr-single-testimonial-img">
+                                        <img src="img/testimonial.jpg" alt="">
+                                    </div>
+                                    <div class="agr-testimonial-ratting 5star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="agr-single-testimonail-content agr-section-headig">
+                                        <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                            simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                            been.</p>
+                                    </div>
+                                    <div class="agr-single-testimonial-client agr-section-headig">
+                                        <h2>Sara Taylor</h2>
+                                        <p>Consumer</p>
+                                    </div>
+                                </div>
+                                <!-- end cerosel testimonial -->
+
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row pb-5">
                         <div class="col-12">
-                            <div class="agr-exprience-area">
+                            <div class="agr-exprience-area text-center pt-5">
                                 <div class="agr-exprience">
                                     <div class="row">
                                         <div class="col-3">
-                                            <div class="agr-single-exprience">
-                                                <h2>100%</h2>
-                                                <p>Organic</p>
+                                            <div class="agr-single-exprience-area">
+                                                <div class="agr-single-exprience agr-section-headig ">
+                                                    <h2>100%</h2>
+                                                    <p>Organic</p>
+                                                </div>
+
                                             </div>
                                         </div>
                                         <!-- single-exprience end -->
                                         <div class="col-3">
-                                            <div class="agr-single-exprience">
-                                                <h2>285+</h2>
-                                                <p>Active agr-single-product-footer</p>
+                                            <div class="agr-single-exprience-area">
+                                                <div class="agr-single-exprience agr-section-headig ">
+                                                    <h2>285+</h2>
+                                                    <p>Active</p>
+                                                </div>
                                             </div>
                                         </div>
                                         <!-- single-exprience end -->
                                         <div class="col-3">
-                                            <div class="agr-single-exprience">
-                                                <h2>350+</h2>
-                                                <p>Organic or Cheads</p>
+                                            <div class="agr-single-exprience-area">
+                                                <div class="agr-single-exprience agr-section-headig ">
+                                                    <h2>350+</h2>
+                                                    <p>Organic or Cheads</p>
+                                                </div>
                                             </div>
                                         </div>
                                         <!-- single-exprience end -->
                                         <div class="col-3">
-                                            <div class="agr-single-exprience">
-                                                <h2>25+</h2>
-                                                <p>Years of Farming</p>
+                                            <div class="agr-single-exprience-area">
+                                                <div class="agr-single-exprience agr-section-headig ">
+                                                    <h2>25+</h2>
+                                                    <p>Years of Farming</p>
+                                                </div>
                                             </div>
                                         </div>
                                         <!-- single-exprience end -->
@@ -477,213 +561,297 @@
         <section class="agr-offer-area">
             <div class="agr-offer">
                 <div class="container">
-                    <div class="row">
-                        <div class="agr-offer-top-left">
-                            <div class="col-6">
+                    <div class="row d-flex justify-content-between align-items-center mb-5">
+                        <div class="col-6">
+                            <div class="agr-offer-top-left agr-section-headig">
                                 <h4>offer</h4>
                                 <h2>We Offer Organic For You</h2>
                             </div>
                         </div>
-                        <div class="agr-offer-top-right">
-                            <div class="col-6">
-                                <a href="#">View All Product<i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="col-6">
+                            <div class="agr-offer-top-right text-end">
+                                <a href="#" class="agr-button">View All Product<i
+                                        class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
 
-                        <div class="col-3">
-                            <div class="agr-our-single-product">
-                                <div class="agr-single-product-cat">
-                                    <a href="#">Vegetable</a>
+                    <div class="agr-offer-area-slide owl-carousel">
+
+                        <div class="agr-our-single-product">
+                            <div class="agr-single-product-cat">
+                                <a href="#">Vegetable</a>
+                            </div>
+                            <div class="agr-single-product-img">
+                                <img src="img/org-img1.png" alt="">
+                            </div>
+                            <div class="agr-single-product-name">
+                                <a href="#">
+                                    <h2>Calabrese Broccoli</h2>
+                                </a>
+                            </div>
+                            <div class="agr-single-product-footer">
+                                <div class="agr-single-product-price">
+                                    <p><del>$20.00</del> <span>$13.00</span></p>
                                 </div>
-                                <div class="agr-single-product-img">
-                                    <img src="img/product/img-1.png" alt="">
-                                </div>
-                                <div class="agr-single-product-name">
-                                    <a href="#">
-                                        <h2>Calabrese Broccoli</h2>
-                                    </a>
-                                </div>
-                                <div class="agr-single-product-footer">
-                                    <div class="agr-single-product-price">
-                                        <p><del>$20.00</del> <span>$13.00</span></p>
-                                    </div>
-                                    <div class="agr-single-product-ratting">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
+                                <div class="agr-single-product-ratting">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
                                 </div>
                             </div>
                         </div>
+
                         <!-- single-product area end -->
-                        <div class="col-3">
-                            <div class="agr-our-single-product">
-                                <div class="agr-single-product-cat">
-                                    <a href="#">Vegetable</a>
+                        <div class="agr-our-single-product">
+                            <div class="agr-single-product-cat">
+                                <a href="#">Vegetable</a>
+                            </div>
+                            <div class="agr-single-product-img">
+                                <img src="img/org-img1.png" alt="">
+                            </div>
+                            <div class="agr-single-product-name">
+                                <a href="#">
+                                    <h2>Calabrese Broccoli</h2>
+                                </a>
+                            </div>
+                            <div class="agr-single-product-footer">
+                                <div class="agr-single-product-price">
+                                    <p><del>$20.00</del> <span>$13.00</span></p>
                                 </div>
-                                <div class="agr-single-product-img">
-                                    <img src="img/product/img-1.png" alt="">
-                                </div>
-                                <div class="agr-single-product-name">
-                                    <a href="#">
-                                        <h2>Calabrese Broccoli</h2>
-                                    </a>
-                                </div>
-                                <div class="agr-single-product-footer">
-                                    <div class="agr-single-product-price">
-                                        <p><del>$20.00</del> <span>$13.00</span></p>
-                                    </div>
-                                    <div class="agr-single-product-ratting">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
+                                <div class="agr-single-product-ratting">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
                                 </div>
                             </div>
                         </div>
+
                         <!-- single-product area end -->
-                        <div class="col-3">
-                            <div class="agr-our-single-product">
-                                <div class="agr-single-product-cat">
-                                    <a href="#">Vegetable</a>
+                        <div class="agr-our-single-product">
+                            <div class="agr-single-product-cat">
+                                <a href="#">Vegetable</a>
+                            </div>
+                            <div class="agr-single-product-img">
+                                <img src="img/org-img1.png" alt="">
+                            </div>
+                            <div class="agr-single-product-name">
+                                <a href="#">
+                                    <h2>Calabrese Broccoli</h2>
+                                </a>
+                            </div>
+                            <div class="agr-single-product-footer">
+                                <div class="agr-single-product-price">
+                                    <p><del>$20.00</del> <span>$13.00</span></p>
                                 </div>
-                                <div class="agr-single-product-img">
-                                    <img src="img/product/img-1.png" alt="">
-                                </div>
-                                <div class="agr-single-product-name">
-                                    <a href="#">
-                                        <h2>Calabrese Broccoli</h2>
-                                    </a>
-                                </div>
-                                <div class="agr-single-product-footer">
-                                    <div class="agr-single-product-price">
-                                        <p><del>$20.00</del> <span>$13.00</span></p>
-                                    </div>
-                                    <div class="agr-single-product-ratting">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
+                                <div class="agr-single-product-ratting">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
                                 </div>
                             </div>
                         </div>
+
                         <!-- single-product area end -->
-                        <div class="col-3">
-                            <div class="agr-our-single-product">
-                                <div class="agr-single-product-cat">
-                                    <a href="#">Vegetable</a>
+                        <div class="agr-our-single-product">
+                            <div class="agr-single-product-cat">
+                                <a href="#">Vegetable</a>
+                            </div>
+                            <div class="agr-single-product-img">
+                                <img src="img/org-img1.png" alt="">
+                            </div>
+                            <div class="agr-single-product-name">
+                                <a href="#">
+                                    <h2>Calabrese Broccoli</h2>
+                                </a>
+                            </div>
+                            <div class="agr-single-product-footer">
+                                <div class="agr-single-product-price">
+                                    <p><del>$20.00</del> <span>$13.00</span></p>
                                 </div>
-                                <div class="agr-single-product-img">
-                                    <img src="img/product/img-1.png" alt="">
-                                </div>
-                                <div class="agr-single-product-name">
-                                    <a href="#">
-                                        <h2>Calabrese Broccoli</h2>
-                                    </a>
-                                </div>
-                                <div class="agr-single-product-footer">
-                                    <div class="agr-single-product-price">
-                                        <p><del>$20.00</del> <span>$13.00</span></p>
-                                    </div>
-                                    <div class="agr-single-product-ratting">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
+                                <div class="agr-single-product-ratting">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- single-product area end -->
+
+                        <div class="agr-our-single-product">
+                            <div class="agr-single-product-cat">
+                                <a href="#">Vegetable</a>
+                            </div>
+                            <div class="agr-single-product-img">
+                                <img src="img/org-img2.png" alt="">
+                            </div>
+                            <div class="agr-single-product-name">
+                                <a href="#">
+                                    <h2>Calabrese Broccoli</h2>
+                                </a>
+                            </div>
+                            <div class="agr-single-product-footer">
+                                <div class="agr-single-product-price">
+                                    <p><del>$20.00</del> <span>$13.00</span></p>
+                                </div>
+                                <div class="agr-single-product-ratting">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- single-product area end -->
+                        <div class="agr-our-single-product">
+                            <div class="agr-single-product-cat">
+                                <a href="#">Vegetable</a>
+                            </div>
+                            <div class="agr-single-product-img">
+                                <img src="img/org-img3.png" alt="">
+                            </div>
+                            <div class="agr-single-product-name">
+                                <a href="#">
+                                    <h2>Calabrese Broccoli</h2>
+                                </a>
+                            </div>
+                            <div class="agr-single-product-footer">
+                                <div class="agr-single-product-price">
+                                    <p><del>$20.00</del> <span>$13.00</span></p>
+                                </div>
+                                <div class="agr-single-product-ratting">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- single-product area end -->
+
+                        <div class="agr-our-single-product">
+                            <div class="agr-single-product-cat">
+                                <a href="#">Vegetable</a>
+                            </div>
+                            <div class="agr-single-product-img">
+                                <img src="img/org-img4.png" alt="">
+                            </div>
+                            <div class="agr-single-product-name">
+                                <a href="#">
+                                    <h2>Calabrese Broccoli</h2>
+                                </a>
+                            </div>
+                            <div class="agr-single-product-footer">
+                                <div class="agr-single-product-price">
+                                    <p><del>$20.00</del> <span>$13.00</span></p>
+                                </div>
+                                <div class="agr-single-product-ratting">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
                         <!-- single-product area end -->
                     </div>
                 </div>
+            </div>
             </div>
         </section>
         <!-- agr-offer-area end -->
         <section class="agr-eco-friendly-area">
             <div class="agr-eco-friendly">
-                <div class="container">
-                    <div class="agr-eco-friendly-left">
-                        <img src="img/eco frndly.jpg" alt="">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="agr-eco-friendly-left">
+
+                        </div>
                     </div>
-                    <div class="agr-eco-friendly-right">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="agr-eco-friendly-right-content">
-                                    <h4></h4>
+                    <div class="col-6">
+                        <div class="agr-eco-friendly-right">
+                            <div class="agr-eco-friendly-right-content agr-section-headig">
+                                <div class="agr-eco-friendly-right-content-heading">
+                                    <h4>Eco Friendly</h4>
                                     <h2>Econis is a Friendly
                                         Organic Store</h2>
-                                    <div class="eco-freindly-single-item">
-                                        <h2>Farming Strategies of Today</h2>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium
-                                            doloremque laudantium. Sed ut perspiciatis.</p>
-                                    </div>
-                                    <!--eco-freindly-single-item end -->
-                                    <div class="eco-freindly-single-item">
-                                        <h2>Farming Strategies of Today</h2>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium
-                                            doloremque laudantium. Sed ut perspiciatis.</p>
-                                    </div>
-                                    <!--eco-freindly-single-item end -->
-                                    <div class="eco-freindly-single-item">
-                                        <h2>Farming Strategies of Today</h2>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium
-                                            doloremque laudantium. Sed ut perspiciatis.</p>
-                                    </div>
-                                    <!--eco-freindly-single-item end -->
                                 </div>
+                                <div class="eco-freindly-single-item">
+                                    <h2 class="fs-4">Farming Strategies of Today</h2>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium
+                                        doloremque laudantium. Sed ut perspiciatis.</p>
+                                </div>
+                                <!--eco-freindly-single-item end -->
+                                <div class="eco-freindly-single-item">
+                                    <h2 class="fs-4">Farming Strategies of Today</h2>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium
+                                        doloremque laudantium. Sed ut perspiciatis.</p>
+                                </div>
+                                <!--eco-freindly-single-item end -->
+                                <div class="eco-freindly-single-item">
+                                    <h2 class="fs-4">Farming Strategies of Today</h2>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium
+                                        doloremque laudantium. Sed ut perspiciatis.</p>
+                                </div>
+                                <!--eco-freindly-single-item end -->
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
         <!-- organic juice start -->
         <section class="agr-organice-juice-area">
             <div class="agr-organic-juice">
-                <div class="container">
-                    <div class="container-fluid row">
-                        <div class="col-4">
-                            <div class="agr-single-org-juice">
-                                <a href="#">Organic Juice</a>
-                            </div>
+                <div class="row d-flex gy-2">
+                    <div class="col-4">
+                        <div class="agr-single-org-juice juice-img-1">
+                            <a href="#">Organic Juice</a>
                         </div>
-                        <div class="col-4">
-                            <div class="agr-single-org-juice">
-                                <a href="#">Organic Food</a>
-                            </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="agr-single-org-juice juice-img-2">
+                            <a href="#">Organic Food</a>
                         </div>
-                        <div class="col-4">
-                            <div class="agr-single-org-juice">
-                                <a href="#">Nuts cookies</a>
-                            </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="agr-single-org-juice juice-img-3">
+                            <a href="#">Nuts cookies</a>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
         <!-- organic juice end -->
         <section class="agr-news-area">
             <div class="agr-news">
                 <div class="container">
-                    <div class="row">
+                    <div class="row d-flex justify-content-between align-items-center mb-5">
                         <div class="col-6">
-                            <div class="agr-news-top-left">
+                            <div class="agr-news-top-left agr-section-headig">
                                 <h4>News</h4>
                                 <h2>Discover weekly content about organic food, & more</h2>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="agr-news-top-right">
+                            <div class="agr-news-top-right text-end">
                                 <a href="#">More News <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -699,18 +867,19 @@
                                     <img src="img/news-1.png" alt="">
                                 </div>
                                 <div class="agr-single-news-content">
-                                    <div class="agr-single-news-author">
-                                        <i class="fa-solid fa-user"></i>
+                                    <div class="agr-single-news-author d-flex align-items-center justify-content-center gap-2">
+                                        <i class="fa-solid fa-user text-warning"></i>
                                         <p>Hasibur Rhaman Shanto</p>
                                     </div>
-                                    <div class="agr-single-news-area-main">
+                                    <div class="agr-single-news-area-main agr-section-headig">
                                         <a href="#">
-                                            <h2>The Benefits of Vitamin D & How to Get It</h2>
+                                            <h2 class="fs-5">The Benefits of Vitamin D & How to Get It</h2>
                                         </a>
                                         <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
                                     </div>
                                     <div class="agr-single-news-button">
-                                        <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class="agr-button">Read More <i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -727,18 +896,21 @@
                                     <img src="img/news-2.png" alt="">
                                 </div>
                                 <div class="agr-single-news-content">
-                                    <div class="agr-single-news-author">
-                                        <i class="fa-solid fa-user"></i>
+                                    <div
+                                        class="agr-single-news-author d-flex align-items-center justify-content-center gap-2">
+                                        <i class="fa-solid fa-user text-warning"></i>
                                         <p>Hasibur Rhaman Shanto</p>
                                     </div>
-                                    <div class="agr-single-news-area-main">
+                                    <div class="agr-single-news-area-main agr-section-headig">
                                         <a href="#">
-                                            <h2>The Benefits of Vitamin D & How to Get It</h2>
+                                            <h2 class="fs-5">Our Favourite Summertime Tommeto</h2>
                                         </a>
                                         <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
                                     </div>
                                     <div class="agr-single-news-button">
-                                        <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class="agr-button">Read More <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+
                                     </div>
                                 </div>
                             </div>
@@ -750,11 +922,11 @@
         </section>
         <!-- subcribe area start -->
         <section class="agr-subscribe-area">
-            <div class="agr-subscribe">
-                <div class="container">
-                    <div class="row">
+            <div class="container">
+                <div class="agr-subscribe">
+                    <div class="row ">
                         <div class="col-6">
-                            <div class="agr-subscribe-left">
+                            <div class="agr-subscribe-left agr-section-headig">
                                 <h2>Subscribe to
                                     our Newsletter
                                 </h2>
@@ -762,8 +934,9 @@
                         </div>
                         <div class="col-6">
                             <div class="agr-subcribe-right">
-                                <input type="email">
-                                <input type="submit" value="Subscribe">
+                                <input type="email" class="email-input py-text-body-secondary"
+                                    value="inter your email addres">
+                                <input type="submit" class="agr-button" value="Subscribe">
                             </div>
                         </div>
                     </div>
@@ -777,7 +950,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-4">
-                            <div class="agr-footer-contact-us">
+                            <div class="agr-footer-contact-us text-end">
                                 <h2>Contact Us</h2>
                                 <div class="agr-footer-single-contact-us">
                                     <h4>Email</h4>
@@ -794,18 +967,19 @@
                             </div>
                         </div>
                         <div class="col-4">
-                            <div class="agr-footer-organic-area">
+                            <div class="agr-footer-organic-area-main">
+                                <div class="agr-footer-organic-area">
+                                    <a href="#"><img src="img/Logo.png"></a>
+                                    <p class="py-2 text-center">Simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum simply dummy text of the printing </p>
 
-                                <a href="#"><img src="img/Logo.png" alt=""></a>
-                                <p>Simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum simply dummy text of the printing </p>
-
-                            </div>
-                            <div class="agr-footer-organic-area-img">
-                                <img src="img/Insta.png" alt="">
-                                <img src="img/Fb.png" alt="">
-                                <img src="img/Twiter.png" alt="">
-                                <img src="img/Pintrest.png" alt="">
+                                </div>
+                                <div class="agr-footer-organic-area-icon d-flex justify-content-center align-items-center gap-4 pt-5">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-pinterest"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="col-4">
@@ -827,16 +1001,16 @@
         <!-- copy right area start -->
         <section class="agr-copy-right-area">
             <div class="agr-copy-right">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <p>Copyright © <span><a href="#">Organick</a></span> | Designed by <span><a
-                                        href="#">VictorFlow</a></span> Templates - Powered by <span><a
-                                        href="#">Webflow</a></span></p>
-                        </div>
+
+                <div class="row">
+                    <div class="col-12 text-center  border-top border-dark pb-2">
+                        <p class="pt-2">Copyright © <span><a href="#">Organick</a></span> | Designed by <span><a
+                                    href="#">VictorFlow</a></span> Templates - Powered by <span><a
+                                    href="#">Webflow</a></span></p>
                     </div>
                 </div>
             </div>
+
         </section>
     </footer>
 
