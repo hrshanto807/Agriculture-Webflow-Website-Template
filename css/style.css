@@ -92,15 +92,22 @@ a {
     padding-bottom: 54px;
 }
 
+.agr-logo i {
+    display: none;
+}
+
+
+
 .agr-primary-menu ul {
     display: flex;
     gap: 35px;
     margin: 0;
 
 }
-
 .agr-primary-menu ul li {
     list-style: none;
+    padding-top: 10px;
+    
 }
 
 .agr-primary-menu ul li a {
@@ -111,8 +118,21 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding: 5px;
+    padding: 10px;
 }
+
+.agr-primary-menu ul li:hover a {
+    background-color: var(--agr-secondary-color);
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+.agr-primary-menu .active {
+    background-color: var(--agr-secondary-color);
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
 
 .agr-header-search {
     width: 65%;
@@ -234,7 +254,7 @@ a {
     padding-bottom: 74px;
 }
 
-.agr-about-single-food-img img{
+.agr-about-single-food-img img {
     background-color: #fff;
     padding: 10px;
     border-radius: 20px;
@@ -370,6 +390,8 @@ agr-testimonial-area css
     background-size: cover;
     background-color: #fcfcfc;
     background-repeat: no-repeat;
+    padding-top: 160px;
+    padding-bottom: 160px;
 }
 
 .agr-testimonail-top {
@@ -474,11 +496,10 @@ offer area css
     background-color: #455359;
 }
 
-.agr-offer-area-slide .owl-nav {
-    margin-top: 50px;
+.agr-offer-area-slide .owl-nav {    
     display: flex;
     position: absolute;
-    top: -188px;
+    top: -138px;
     right: 295px;
     gap: 20px;
     /* gap: 84%; */
@@ -533,7 +554,7 @@ agr-eco-friendly-area css
 .agr-eco-friendly-right {
     background-color: #fff;
     width: 790px;
-    height: 790px;
+    height: 100%;
     flex-shrink: 0;
     padding: 77px 89px;
     border-radius: 50px;
@@ -546,6 +567,7 @@ agr-eco-friendly-area css
     align-items: flex-start;
     gap: 35px;
 }
+
 
 /*----------------------------------------------
 *juice css 
@@ -720,7 +742,7 @@ agr-subscribe-area css
     margin-bottom: 160px;
 }
 
-.agr-footer-organic-area a /img {
+.agr-footer-organic-area a img {
     margin-left: 100px;
 }
 
